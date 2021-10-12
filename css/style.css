@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body {
+ font-family: 'Poppins', sans-serif;
+ margin: 0 auto;
+ background-color:#fff/*  #fbc8b4*/; 
+}
+
+/* Navbar */
+.navbar {
+    padding: 20px 36px 0px 36px;
+    margin-bottom: 200px;
+  }
+ .navbar li a, .navbar .navbar-brand {
+    color: #0f594e !important;
+    font-size: 18px !important;
+  }
+ .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #0f594e !important;
+    background-color: #c7ffd3 !important;
+  }
+
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+  }
+
+@media (max-width: 576px) { 
+  .navbar {
+    margin-bottom: 195px;
+  }
+}
+
+/* home section */
+.jumbotron { 
+  background-image: url("/img/desktop-hero-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 0px !important;
+  padding-bottom: 80px !important;
+  height: 95vh;
+} 
+
+.hero_container h1 {
+  color: #0f594e;
+  font-family: 'Playfair Display', serif;
+  width: 60%;
+  font-size: 70px;
+}
+
+.hero_container p {
+  width: 60%;
+  font-size: 20px !important;
+}
+
+@media (max-width: 576px) { 
+
+  .jumbotron {
+    background-image: url("/img/mobile-hero-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 0px !important;
+    padding-bottom: 50px;
+    height: auto;
+  }
+
+  .hero_container {
+    padding-left:30px ;
+    padding-right:30px ;
+  } 
+
+  .hero_container h1 {
+    width: 100% !important;
+    font-size: 45px;
+    margin-bottom: 16px;
+  }
+  .hero_container p {
+    width: 100%;
+  }
+}
+
+/* About section */
+  .about {
+    padding: 36px;
+} 
+  .about h2 {
+    color: #111e54;
+}
+
+/* Services section  */
+  .services h2 {
+    color: #111e54/*#0f594e*/;
+   }
+  .services {
+    margin: 50px 0px;
+    background-color:/*#c7ffd3*/#B5F6CF; 
+  } 
+
+  .services_container {
+    padding: 60px 36px 70px 36px;
+  } 
+
+  .services_container img {
+    height: 300px;
+  }  
+
+  @media (max-width: 576px) {
+    .services_container img {
+      height: 290px;
+    }  
+  }
+
+/* Reviews */
+  .Testimonals h2 {
+    color:#111E54;
+  }
+  .Testimonals {
+    padding: 60px 36px 100px 36px;
+} 
+
+/* Contact Us ends */
+
+.contact {
+  color: #c7ffd3;
+ background-color:#19191e;
+ padding: 60px 0px 30px 0px ;
+}
+
+.social-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 2em 0 0;
+  padding: 0;
+}
+
+.social-list__item {
+  margin: 0 .5em;
+}
+
+
+.social-list__link {
+  padding: .2em;
+  font-size: 2em;
+} 
+
+/* Footer section  */
+.footer {
+  padding: 30px;
+  color: #fff;
+  background-color:  #111111; 
+} 
+ 
+/* Line breaker */
+.under-scope {
+  width: 130px; 
+  border-top: 3px solid #8c8b8b; 
+  margin: 10px auto 0px auto; 
+} 
+
+@media (max-width: 576px) { 
+  .under-scope {
+    width: 140px; 
+    border-top: 3px solid #8c8b8b; 
+    margin: 10px auto 0px auto; 
+  }  
+}
+/* Line breaker ends */ 
+
+
+/* refernces
+https://www.bambooindia.com/product-category/bamboo-toothbrushes/ -- used for products 
+https://terrabrush.in/ - reviews 
+https://geosmin.in/about-us/ -- About us
+https://letsbeco.com/about-us/ -- vision and mission - about us
+
+*/
